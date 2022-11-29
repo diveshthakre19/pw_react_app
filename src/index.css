@@ -125,7 +125,7 @@ li {
 span {
   background: -webkit-linear-gradient(90deg, #5d4ad8, #e84280);
   -webkit-text-fill-color: transparent;
-  -webkit-background-cliP: text;
+  -webkit-background-clip: text;
 }
 
 main {
@@ -218,8 +218,8 @@ main {
 .mobile-img img {
   height: 55rem;
   position: absolute;
-  bottom: -1rem ;
-  left:25rem ;
+  bottom: -1rem;
+  left: 25rem;
 }
 .play-img img {
   width: 14rem;
@@ -325,7 +325,7 @@ div.banner {
   =======================================   -->*/
 .student-section {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   margin: 8rem 0 0 0;
 }
@@ -462,7 +462,7 @@ div.banner {
   gap: 2rem;
   align-items: center;
 }
-.socials img{
+.socials img {
   margin: 0rem 1rem;
 }
 
@@ -470,13 +470,9 @@ div.banner {
   transform: translateY(20rem);
   padding: 0 4rem;
 }
-body{
+body {
   overflow-x: hidden;
 }
-
-
-
-
 
 /* <!-- ===================================-->
 <!--           MEDIA QUERRIES                    -->
