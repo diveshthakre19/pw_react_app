@@ -10,6 +10,8 @@ import featureImg2 from "./images/feature2.svg";
 import featureImg3 from "./images/feature3.svg";
 import featureImg4 from "./images/feature4.svg";
 import Results from "./Components/Results";
+import Footer from "./Components/Footer";
+import Download from "./Components/Download";
 
 const App = () => {
   return (
@@ -57,6 +59,8 @@ const App = () => {
         />
       </section>
       <Results />
+      <Download />
+      <Footer />
     </div>
   );
 };

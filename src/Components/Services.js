@@ -1,18 +1,18 @@
 import React from "react";
-import lineImg from "../images/line1.svg"
-const Services = ({ imgSrc , data , cls , serviceName}) => {
+import lineImg from "../images/line1.svg";
+const Services = ({ imgSrc, data, cls, serviceName }) => {
   return (
     <div>
-      <div class={cls}>
-        <div class="service-image">
+      <div className={cls}>
+        <div className="service-image">
           <img src={imgSrc} alt="" />
         </div>
-        <div class="description">
-          <h3 class="secondary-heading">{serviceName}</h3>
+        <div className="description">
+          <h3 className="secondary-heading">{serviceName}</h3>
           <p>{data}</p>
         </div>
       </div>
-      <div class="line">
+      <div className="line">
         <img src={lineImg} alt="" />
       </div>
     </div>

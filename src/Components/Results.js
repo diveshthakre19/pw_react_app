@@ -15,8 +15,8 @@ import Students from "./Students";
 const Results = () => {
   return (
     <>
-      <section class="section">
-        <div class="main-heading text-center">
+      <section className="section">
+        <div className="main-heading text-center">
           <h2>
             Our <span> Proud </span>Learning Hub{" "}
           </h2>
